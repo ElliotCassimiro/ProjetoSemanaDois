@@ -1,0 +1,53 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.calendar{
+    margin-top: 100px;
+    margin-left: 220px;
+    max-width: 800px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:rgb(5, 5, 5);
+}
+
+.mes{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: rgb(238, 151, 51);
+    border: 5px solid rgb(8, 8, 8)
+}
+
+table, th, td {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 28px;
+    border-collapse: collapse;
+    border: 5px solid black;
+    font-family: serif;
+
+}
+
+tr, th, td{
+    padding: 13px;
+}
+
+th{
+    background: #0462a0;
+    color: black;
+    font-family:serif;
+    color: white;   
+}
+
+td{
+    background: #fff9c5;
+}
+
+td:hover{
+    background: yellow;
+}
